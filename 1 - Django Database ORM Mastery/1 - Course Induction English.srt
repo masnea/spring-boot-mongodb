@@ -1,0 +1,116 @@
+﻿1
+00:00:00,510 --> 00:00:07,530
+‫The core of arguably all web applications are robust data models and data handling.
+
+2
+00:00:07,770 --> 00:00:14,640
+‫In a Django project, the Django Forum is a core component abstracted away from view, which enables
+
+3
+00:00:14,640 --> 00:00:21,300
+‫developers to rapidly create applications that require interactions with databases and its data.
+
+4
+00:00:21,960 --> 00:00:28,860
+‫In this course at Level one, we begin our journey learning how to interact with a database from a DJANGO
+
+5
+00:00:28,860 --> 00:00:29,580
+‫project.
+
+6
+00:00:30,570 --> 00:00:38,040
+‫This course has one aim, and that is to introduce to you the fundamental Django erm concepts so that
+
+7
+00:00:38,040 --> 00:00:43,350
+‫you can start to generate applications that interact with databases.
+
+8
+00:00:44,760 --> 00:00:50,220
+‫Although you could complete this course as a complete beginner to Django, it would be more beneficial
+
+9
+00:00:50,220 --> 00:00:56,040
+‫for you to have some familiarity with creating and starting a Django project.
+
+10
+00:00:56,730 --> 00:01:03,570
+‫We do provide some initial guides on how to start a Django project and just familiarize yourself with
+
+11
+00:01:03,570 --> 00:01:06,030
+‫the basics of Django in this course.
+
+12
+00:01:06,030 --> 00:01:09,060
+‫And that's an optional session at the start of this course.
+
+13
+00:01:10,080 --> 00:01:16,680
+‫Ultimately you are taking this course because you are interested in learning in more detail how Django
+
+14
+00:01:16,680 --> 00:01:23,190
+‫interacts with the database through the Django Erm, I am Alexander a.k.a Zonda.
+
+15
+00:01:23,190 --> 00:01:26,040
+‫You may know me from the very Academy YouTube channel.
+
+16
+00:01:26,040 --> 00:01:29,820
+‫I have the absolute pleasure of being your instructor for this course.
+
+17
+00:01:30,150 --> 00:01:36,060
+‫Do you take time to browse the course structure, check out the course description and learning outcomes.
+
+18
+00:01:36,060 --> 00:01:40,530
+‫This will provide more information about the course and course outcomes.
+
+19
+00:01:41,640 --> 00:01:45,900
+‫Just to finish off, this introduction highlights some of the features of this course.
+
+20
+00:01:45,900 --> 00:01:49,800
+‫You will find a section main course communication in this section.
+
+21
+00:01:49,800 --> 00:01:55,260
+‫I will keep you updated with course updates and any other news related to the course.
+
+22
+00:01:56,770 --> 00:02:03,190
+‫To help aid your learning, you will find multiple choice quizzes at the end of settings in this course.
+
+23
+00:02:03,220 --> 00:02:09,190
+‫What I've tried to do here is just to encapsulate all the main learning points found within sections
+
+24
+00:02:09,190 --> 00:02:14,260
+‫and put them in to a quiz and you can utilise this to develop your own notes.
+
+25
+00:02:15,590 --> 00:02:21,590
+‫Assuming you are completely new to Django or maybe Python, please check out the Preparing for Development
+
+26
+00:02:21,590 --> 00:02:24,110
+‫or our installation guides there.
+
+27
+00:02:24,110 --> 00:02:29,120
+‫I take you through the steps needed to install all the software that we're going to be utilizing in
+
+28
+00:02:29,120 --> 00:02:30,110
+‫this course.
+
+29
+00:02:31,080 --> 00:02:34,560
+‫Thank you very much for purchasing and I hope you enjoy the course.
+

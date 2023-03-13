@@ -1,0 +1,304 @@
+﻿1
+00:00:00,300 --> 00:00:05,610
+‫In this tutorial, we're going to install Python onto the Windows operating system.
+
+2
+00:00:06,300 --> 00:00:11,100
+‫The burning question here is probably why do I need to install Python?
+
+3
+00:00:12,130 --> 00:00:18,280
+‫The whole point of downloading Python is that it provides us all the tools that allows the computer
+
+4
+00:00:18,280 --> 00:00:25,960
+‫to interact with the Python programming language so that it can execute our code or run our code.
+
+5
+00:00:26,650 --> 00:00:28,470
+‫This is Windows 11.
+
+6
+00:00:28,480 --> 00:00:35,090
+‫This process should work on Windows ten so you can follow along if you're running Windows ten or 11.
+
+7
+00:00:35,110 --> 00:00:38,140
+‫So here I have a fresh installation of Windows 11.
+
+8
+00:00:38,140 --> 00:00:45,880
+‫So let's go ahead and open up a browser window, gave it to Google and let's type in Python download.
+
+9
+00:00:45,880 --> 00:00:51,700
+‫So there is only one place where we want to download Python safely, and that is the Python website.
+
+10
+00:00:51,940 --> 00:00:54,510
+‫So let's head over to Python dot org.
+
+11
+00:00:54,520 --> 00:00:58,020
+‫You can go there directly and let's go over to downloads.
+
+12
+00:00:58,030 --> 00:01:03,250
+‫So you can see by default when you navigate your land on the page, we are presented with the Python
+
+13
+00:01:03,250 --> 00:01:05,800
+‫download and that is the latest version.
+
+14
+00:01:05,980 --> 00:01:09,490
+‫So for this course I am running 3.9.5.
+
+15
+00:01:09,490 --> 00:01:15,130
+‫But if you're running windows you can run any version of Python from about 3.4.
+
+16
+00:01:17,090 --> 00:01:20,210
+‫So let's head over to the download section.
+
+17
+00:01:20,240 --> 00:01:23,090
+‫Let's go to Windows and have a look at the different options here.
+
+18
+00:01:23,120 --> 00:01:26,840
+‫Now, we've already noticed that there are different versions of Python.
+
+19
+00:01:26,870 --> 00:01:33,080
+‫Python is a very proactive language which is constantly being updated, although at the moment that's
+
+20
+00:01:33,080 --> 00:01:35,190
+‫not necessarily an important factor.
+
+21
+00:01:35,210 --> 00:01:40,310
+‫But later along the line in your development, you may be working with legacy software.
+
+22
+00:01:40,400 --> 00:01:46,370
+‫That software may be written with older versions of Python, so you may have a need in the future to
+
+23
+00:01:46,370 --> 00:01:51,800
+‫download different versions and use different versions of Python when developing applications.
+
+24
+00:01:53,230 --> 00:01:54,130
+‫For this course.
+
+25
+00:01:54,130 --> 00:01:59,140
+‫All the examples are demonstrated utilizing Python 3.9.5.
+
+26
+00:01:59,140 --> 00:02:03,880
+‫And although I suggested that that isn't necessarily an issue if you're running later or earlier versions
+
+27
+00:02:03,880 --> 00:02:09,190
+‫of Python for this particular course, if you do want to follow along and download that version, let's
+
+28
+00:02:09,190 --> 00:02:15,370
+‫go ahead and search this page here for 3.9.5 and download the correct version.
+
+29
+00:02:15,640 --> 00:02:20,350
+‫Okay, So clicking on the link here, we're presented with a few different options at the bottom here
+
+30
+00:02:20,350 --> 00:02:24,040
+‫we can download the 64 bit or 32 bit option.
+
+31
+00:02:24,040 --> 00:02:28,960
+‫Now, if you're running in a computer that's been purchased over the last ten years, then the likelihood
+
+32
+00:02:28,960 --> 00:02:31,840
+‫is that you're running a 64 bit machine.
+
+33
+00:02:31,840 --> 00:02:34,660
+‫So you go ahead and download 64 bit.
+
+34
+00:02:36,710 --> 00:02:39,980
+‫Once you've downloaded Python, let's just go ahead and open the file.
+
+35
+00:02:40,010 --> 00:02:44,720
+‫It will be downloaded, no doubt to the download folder if you don't have this particular operating
+
+36
+00:02:44,720 --> 00:02:45,360
+‫system.
+
+37
+00:02:45,380 --> 00:02:49,940
+‫So here we present you with two options Install now and customize installation.
+
+38
+00:02:51,170 --> 00:02:56,900
+‫The first option that you should select is to add Python 3.9 to path.
+
+39
+00:02:56,900 --> 00:03:03,260
+‫So by adding Python to PATH, it makes it possible for you to run or use python from your command prompt.
+
+40
+00:03:03,260 --> 00:03:04,700
+‫And that's something that we want to do.
+
+41
+00:03:04,700 --> 00:03:07,970
+‫So let's make sure we add and select that option.
+
+42
+00:03:08,180 --> 00:03:14,240
+‫Secondly, I just want to customize where we are going to actually install Python, because for example,
+
+43
+00:03:14,240 --> 00:03:18,980
+‫here you can see that it's going to be installed in this location here, but potentially that isn't
+
+44
+00:03:18,980 --> 00:03:25,760
+‫necessarily a very convenient place where I want to actually store the Python installation, because
+
+45
+00:03:25,760 --> 00:03:31,430
+‫if I've got multiple versions of Python, maybe I want to be able to easily access those different versions.
+
+46
+00:03:31,430 --> 00:03:36,290
+‫So I like to install Python directly onto the C drive so we can ignore this list here.
+
+47
+00:03:36,290 --> 00:03:39,650
+‫We can install everything that isn't a problem for this particular course.
+
+48
+00:03:39,650 --> 00:03:44,930
+‫So I press next and then here customize the installation I'm just going to remove.
+
+49
+00:03:45,800 --> 00:03:53,990
+‫Everything and then make sure that then that is then installed onto the C drive in a folder called Python
+
+50
+00:03:53,990 --> 00:03:56,420
+‫three nine referencing the version of Python.
+
+51
+00:03:56,750 --> 00:04:00,050
+‫So you can decide if you want to install for all users.
+
+52
+00:04:00,050 --> 00:04:04,820
+‫But like I said, there's not really anything else here that we need to consider for this particular
+
+53
+00:04:04,820 --> 00:04:05,120
+‫course.
+
+54
+00:04:05,120 --> 00:04:07,460
+‫So you can just go ahead now and install.
+
+55
+00:04:07,970 --> 00:04:09,320
+‫So do you want to make changes?
+
+56
+00:04:09,320 --> 00:04:09,950
+‫Yes.
+
+57
+00:04:12,240 --> 00:04:17,300
+‫So once we're finished, we're told it was successful, so everything should be absolutely fine.
+
+58
+00:04:17,310 --> 00:04:18,510
+‫So we just close that.
+
+59
+00:04:19,150 --> 00:04:19,810
+‫Installer.
+
+60
+00:04:19,840 --> 00:04:21,310
+‫Looks like I've opened it up twice now.
+
+61
+00:04:21,310 --> 00:04:28,270
+‫If you do have any problems with installing Python, then head over to Stack Overflow if you haven't
+
+62
+00:04:28,270 --> 00:04:30,850
+‫been introduced or seen Stack Overflow before.
+
+63
+00:04:30,940 --> 00:04:34,750
+‫It is a service whereby you can ask technical questions.
+
+64
+00:04:35,230 --> 00:04:40,330
+‫If you're having problems with a software installation, maybe you're having problems with some code
+
+65
+00:04:40,330 --> 00:04:41,340
+‫that you're working on.
+
+66
+00:04:41,350 --> 00:04:47,350
+‫Then definitely have a look at Stack Overflow because generally 99% of the time, the problems that
+
+67
+00:04:47,350 --> 00:04:50,290
+‫you're experiencing, someone else has already experienced those.
+
+68
+00:04:50,290 --> 00:04:53,320
+‫So it's likely to be a resolution for that problem here.
+
+69
+00:04:55,550 --> 00:04:59,810
+‫So let's just check that python has been installed so we can go over to start.
+
+70
+00:04:59,840 --> 00:05:01,770
+‫Let's type in the word command.
+
+71
+00:05:01,790 --> 00:05:07,040
+‫That should bring up the command prompt here or give us the option to open up the command prompt and
+
+72
+00:05:07,040 --> 00:05:09,320
+‫then from inside the command prompt.
+
+73
+00:05:09,590 --> 00:05:12,890
+‫Well, open that from inside the command prompt.
+
+74
+00:05:13,160 --> 00:05:19,640
+‫I'm going to type in P for Python space, dash, dash and then version.
+
+75
+00:05:20,510 --> 00:05:25,460
+‫So that's going to tell me that Python 3.95 is now installed on the computer.
+
+76
+00:05:26,170 --> 00:05:32,890
+‫With Python now installed, we're now ready to develop and execute or run our applications in Python.
+

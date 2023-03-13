@@ -1,0 +1,476 @@
+﻿1
+00:00:00,150 --> 00:00:06,450
+‫Before you start this set up installation guide, we're making the assumption that you have Python installed.
+
+2
+00:00:06,480 --> 00:00:10,830
+‫If you don't, then check out the previous tutorial where we take you through those steps.
+
+3
+00:00:11,770 --> 00:00:12,700
+‫In this course.
+
+4
+00:00:12,700 --> 00:00:15,890
+‫Our preferred code editor is Visual Studio Code.
+
+5
+00:00:15,910 --> 00:00:20,140
+‫All the examples in this course will be presented utilizing this software.
+
+6
+00:00:21,140 --> 00:00:24,170
+‫Although it's completely optional what code editor you choose.
+
+7
+00:00:24,170 --> 00:00:28,550
+‫We do recommend that you follow along with this course with Visual Studio Code.
+
+8
+00:00:30,190 --> 00:00:36,320
+‫So let's start by browsing or searching for Visual Studio Code.
+
+9
+00:00:36,340 --> 00:00:39,280
+‫We can use the keyword download as well.
+
+10
+00:00:39,280 --> 00:00:40,450
+‫That can be handy.
+
+11
+00:00:40,480 --> 00:00:44,770
+‫That should take us to code Visual Studio download.
+
+12
+00:00:44,860 --> 00:00:47,500
+‫So let's go over to that web page.
+
+13
+00:00:47,530 --> 00:00:51,370
+‫Looks a little bit like this, except that.
+
+14
+00:00:51,370 --> 00:00:53,890
+‫So from here you can see that we've got multiple options.
+
+15
+00:00:53,890 --> 00:00:58,600
+‫Visual Studio Code can be installed and used on multiple operating systems.
+
+16
+00:00:58,780 --> 00:01:03,370
+‫Now, assuming that you have a computer that's been purchased over the last ten years, the likelihood
+
+17
+00:01:03,370 --> 00:01:07,000
+‫is that you're running a 64 bit operating system.
+
+18
+00:01:07,000 --> 00:01:13,360
+‫So you can select these 64 bit set up installer here, this 64 bit option here, or you can just go
+
+19
+00:01:13,360 --> 00:01:17,680
+‫ahead and select this Windows download, whichever one you decide.
+
+20
+00:01:17,680 --> 00:01:19,030
+‫That should be absolutely fine.
+
+21
+00:01:19,030 --> 00:01:24,490
+‫So this download here is going to be a universal installer for Windows eight, ten and 11.
+
+22
+00:01:27,570 --> 00:01:29,220
+‫Okay, so I'm clicking on that page.
+
+23
+00:01:29,220 --> 00:01:34,170
+‫You can see that we've started downloading, so that would take a couple of seconds and then we can
+
+24
+00:01:34,170 --> 00:01:34,860
+‫start.
+
+25
+00:01:34,890 --> 00:01:37,860
+‫So let's quickly run through the installation wizard here.
+
+26
+00:01:37,860 --> 00:01:39,930
+‫So accept the agreement.
+
+27
+00:01:39,930 --> 00:01:44,220
+‫Press Next, you can decide where you want to install Visual Studio code.
+
+28
+00:01:44,250 --> 00:01:49,890
+‫I don't recommend that you change the installation settings there unless you have some specific setup
+
+29
+00:01:49,890 --> 00:01:50,880
+‫on your computer.
+
+30
+00:01:50,880 --> 00:01:53,760
+‫So just next, the Start menu folder.
+
+31
+00:01:53,760 --> 00:01:54,630
+‫Just next.
+
+32
+00:01:54,630 --> 00:02:01,200
+‫And then let's create a desktop icon that can be handy and add to path that is always going to be handy
+
+33
+00:02:01,200 --> 00:02:06,030
+‫so we can utilize a terminal effectively as press next and install.
+
+34
+00:02:08,070 --> 00:02:12,630
+‫Once you've finished installing Visual Studio Code, go ahead and open up Visual Studio Code.
+
+35
+00:02:13,200 --> 00:02:18,660
+‫I'm just going to take you through a few different settings that you can apply and give you a basic
+
+36
+00:02:18,660 --> 00:02:22,350
+‫introduction to Visual Studio Code if you're completely new to this.
+
+37
+00:02:22,710 --> 00:02:26,160
+‫So first of all, we need to select what we want it to look like.
+
+38
+00:02:26,160 --> 00:02:28,260
+‫So I'm just going to select the dark option here.
+
+39
+00:02:29,580 --> 00:02:31,080
+‫Next selection here.
+
+40
+00:02:31,590 --> 00:02:36,990
+‫There isn't really anything here that we need to consider, so let's just close that tab.
+
+41
+00:02:36,990 --> 00:02:37,290
+‫Right?
+
+42
+00:02:37,290 --> 00:02:41,970
+‫So first of all, if we want to create a new project with Visual Studio Code or if you want to work
+
+43
+00:02:41,970 --> 00:02:47,070
+‫with the project, then we generally open up the folder and work within that folder.
+
+44
+00:02:47,070 --> 00:02:52,830
+‫So what we're going to need to do here very briefly is let's go over to a desktop here.
+
+45
+00:02:52,860 --> 00:02:55,050
+‫Let's just create a new folder.
+
+46
+00:02:55,080 --> 00:02:57,230
+‫Let's just call this project.
+
+47
+00:02:57,240 --> 00:03:02,670
+‫So generally you have a project folder, that's the folder where your project is being developed, all
+
+48
+00:03:02,670 --> 00:03:05,510
+‫the files, etc. is going to be in that folder.
+
+49
+00:03:05,520 --> 00:03:12,060
+‫So generally when we open up a new Visual Studio code window or project, the first step is to open
+
+50
+00:03:12,060 --> 00:03:12,590
+‫the folder.
+
+51
+00:03:12,600 --> 00:03:14,850
+‫We can do that by the left hand side.
+
+52
+00:03:14,850 --> 00:03:19,860
+‫Here we have the Explorer tab here or you can go to file and then open folder.
+
+53
+00:03:20,160 --> 00:03:25,320
+‫So we just need to select the folder, our project folder, and now we have the project folder on the
+
+54
+00:03:25,320 --> 00:03:26,220
+‫left hand side here.
+
+55
+00:03:26,220 --> 00:03:30,040
+‫So we're interacting with that folder we just created on the desktop.
+
+56
+00:03:30,060 --> 00:03:37,350
+‫So if we were to create a new file, so all python files have the PY file extension, you can see we've
+
+57
+00:03:37,350 --> 00:03:38,460
+‫created a new file there.
+
+58
+00:03:38,460 --> 00:03:44,670
+‫So if I go back to the folder we created on the desktop, you can see that that folder now has that
+
+59
+00:03:44,670 --> 00:03:48,810
+‫file we've just created so you can see how that's interacting with that folder.
+
+60
+00:03:49,170 --> 00:03:49,440
+‫All right.
+
+61
+00:03:49,440 --> 00:03:50,430
+‫So that's my project.
+
+62
+00:03:50,430 --> 00:03:55,080
+‫And the idea here is that we click on the file, it appears on the right hand side here, we can start
+
+63
+00:03:55,080 --> 00:03:56,370
+‫writing some code.
+
+64
+00:03:56,640 --> 00:03:59,820
+‫You can see that Visual Studio code uses a TAB system.
+
+65
+00:03:59,820 --> 00:04:05,880
+‫So when we open up new files, you'll be able to access those files from the top ribbon ribbon here.
+
+66
+00:04:05,970 --> 00:04:06,750
+‫So.
+
+67
+00:04:07,570 --> 00:04:08,410
+‫On the right hand side.
+
+68
+00:04:08,410 --> 00:04:10,630
+‫This can be pretty handy here.
+
+69
+00:04:10,630 --> 00:04:13,250
+‫We can split the screen so you can work on two files.
+
+70
+00:04:13,270 --> 00:04:18,630
+‫That's pretty handy if you're working with multiple files, and we can close that.
+
+71
+00:04:18,640 --> 00:04:20,730
+‫So go ahead and close the file.
+
+72
+00:04:20,740 --> 00:04:22,960
+‫That would then close that additional window.
+
+73
+00:04:24,930 --> 00:04:29,580
+‫So you notice here and it's very small at the moment or maybe on your screen, but you can see a dot
+
+74
+00:04:29,580 --> 00:04:32,490
+‫next to the name with the file that we've opened.
+
+75
+00:04:32,490 --> 00:04:36,780
+‫That DOT represents the fact that the file has not been saved.
+
+76
+00:04:36,930 --> 00:04:41,880
+‫Now, one of the common problems that I find students fall into at the start is they forget to save
+
+77
+00:04:41,880 --> 00:04:42,780
+‫their files.
+
+78
+00:04:42,960 --> 00:04:47,700
+‫Now, I recommend that you go over to file and you select Auto Save.
+
+79
+00:04:47,700 --> 00:04:51,090
+‫So just click on Auto Save and that will just auto save.
+
+80
+00:04:51,090 --> 00:04:56,430
+‫Now all the files so you'd never have to press save any time you type something, it would just automatically
+
+81
+00:04:56,430 --> 00:04:56,910
+‫save.
+
+82
+00:04:56,910 --> 00:04:58,590
+‫And that can be really handy.
+
+83
+00:05:00,260 --> 00:05:07,250
+‫Something else that you'll probably want to do is to zoom in or utilize the will mouse to zoom in.
+
+84
+00:05:07,430 --> 00:05:13,040
+‫So if you go over to file and then preferences and then settings, that's where you're going to find
+
+85
+00:05:13,040 --> 00:05:14,900
+‫all the settings for Visual Studio code.
+
+86
+00:05:14,900 --> 00:05:20,180
+‫But if I type in, zoom into this search bar up top here, I can select Zoom.
+
+87
+00:05:20,390 --> 00:05:28,940
+‫And now what I can do is I can easily zoom when holding the control key and my mouse if I can find the
+
+88
+00:05:28,940 --> 00:05:29,990
+‫control key.
+
+89
+00:05:30,020 --> 00:05:30,380
+‫Of course.
+
+90
+00:05:30,380 --> 00:05:30,950
+‫There we go.
+
+91
+00:05:30,980 --> 00:05:31,810
+‫So there we go.
+
+92
+00:05:31,870 --> 00:05:35,990
+‫So it makes it a lot easier for you to zoom in and out, which can be very handy.
+
+93
+00:05:37,010 --> 00:05:42,410
+‫In addition to that, if you hold down control and press plus and minus on your keyboard, you can actually
+
+94
+00:05:42,410 --> 00:05:46,760
+‫scale the whole UI of Visual Studio code.
+
+95
+00:05:49,630 --> 00:05:54,070
+‫The last feature, which is going to be utilized on this course is the terminal.
+
+96
+00:05:54,100 --> 00:05:59,050
+‫Now, if I dragged from the bottom just before the blue bar at the bottom, you can't see that, but
+
+97
+00:05:59,050 --> 00:06:01,150
+‫you can kind of see where my mouse is ended here.
+
+98
+00:06:01,180 --> 00:06:01,980
+‫Just here.
+
+99
+00:06:01,990 --> 00:06:05,170
+‫The new arrow appears up and down.
+
+100
+00:06:05,170 --> 00:06:06,790
+‫Our appears when it's available.
+
+101
+00:06:06,790 --> 00:06:11,050
+‫And it means I can drag up and I can drag this terminal up with my mouse here.
+
+102
+00:06:11,200 --> 00:06:13,330
+‫So this opens up the terminal.
+
+103
+00:06:13,360 --> 00:06:16,930
+‫This is really handy feature that we're going to be utilizing throughout this course.
+
+104
+00:06:16,930 --> 00:06:19,630
+‫And generally when you're working with Django or Python.
+
+105
+00:06:19,660 --> 00:06:26,040
+‫The terminal is normally needed for some reason, so I can access that terminal by dragging it up.
+
+106
+00:06:26,050 --> 00:06:30,610
+‫Now there is a shortcut if I go to view, you can see here, we're told in the terminal I need to press
+
+107
+00:06:30,610 --> 00:06:38,940
+‫control plus and it looks like a left single quote that is a shortcut to bring the terminal up and down.
+
+108
+00:06:38,950 --> 00:06:44,050
+‫So control plus I think I have it on this keyboard.
+
+109
+00:06:44,050 --> 00:06:45,220
+‫I'm using a mac keyboard now.
+
+110
+00:06:45,220 --> 00:06:46,120
+‫It's not going to work.
+
+111
+00:06:46,540 --> 00:06:49,450
+‫Okay, So on your keyboard, you can type in your shortcut.
+
+112
+00:06:49,450 --> 00:06:51,580
+‫Now, let me just zoom back out again.
+
+113
+00:06:52,030 --> 00:06:52,300
+‫Okay?
+
+114
+00:06:52,300 --> 00:06:58,300
+‫So if you do want to remove the terminal, there is a bin here which I click and then that removes the
+
+115
+00:06:58,300 --> 00:07:00,270
+‫terminal and closes the terminal window.
+
+116
+00:07:00,610 --> 00:07:05,830
+‫So just make sure that you feel comfortable opening and closing the terminal wherever you drag or wherever
+
+117
+00:07:05,830 --> 00:07:07,240
+‫you use the shortcut.
+
+118
+00:07:08,770 --> 00:07:13,870
+‫I do recommend that you spend maybe five, 10 minutes just familiarizing yourself with Visual Studio
+
+119
+00:07:13,870 --> 00:07:17,590
+‫Code because it can make following the tutorials much easier.
+

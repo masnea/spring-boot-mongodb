@@ -1,0 +1,580 @@
+﻿1
+00:00:00,090 --> 00:00:05,130
+‫When working with Python and Visual Studio Code, the likelihood is that you're going to be working
+
+2
+00:00:05,130 --> 00:00:07,110
+‫within virtual environments.
+
+3
+00:00:07,620 --> 00:00:12,840
+‫When you download Python, it comes with all the tools to allow you to start virtual environments on
+
+4
+00:00:12,840 --> 00:00:13,770
+‫your computer.
+
+5
+00:00:14,500 --> 00:00:17,500
+‫In this tutorial we focus on the process.
+
+6
+00:00:17,500 --> 00:00:22,060
+‫So do try and move away from asking yourself lots of questions.
+
+7
+00:00:22,060 --> 00:00:23,800
+‫Why do I need a virtual environment?
+
+8
+00:00:23,800 --> 00:00:25,270
+‫What is a virtual environment?
+
+9
+00:00:25,270 --> 00:00:28,360
+‫And just focus on the process at this point?
+
+10
+00:00:29,210 --> 00:00:32,030
+‫Within your course Core content.
+
+11
+00:00:32,060 --> 00:00:37,190
+‫Additional information regarding the virtual environment will be provided if appropriate.
+
+12
+00:00:37,860 --> 00:00:42,720
+‫Before you start this process, you will need Visual Studio code and Python installed.
+
+13
+00:00:42,750 --> 00:00:45,780
+‫So here on Windows, we've already installed Visual Studio Code.
+
+14
+00:00:45,810 --> 00:00:49,110
+‫Check out the previous tutorials if you haven't already done so.
+
+15
+00:00:49,650 --> 00:00:50,010
+‫All right.
+
+16
+00:00:50,010 --> 00:00:51,360
+‫So here we have a project.
+
+17
+00:00:51,360 --> 00:00:55,470
+‫It's automatically opened up my project, so let's just go through that process again.
+
+18
+00:00:55,470 --> 00:00:57,040
+‫So the first thing we want to do.
+
+19
+00:00:57,060 --> 00:01:00,680
+‫File open a folder, open the project that we want to work with.
+
+20
+00:01:00,690 --> 00:01:03,000
+‫So we have a project folder on the desktop.
+
+21
+00:01:03,000 --> 00:01:05,790
+‫We've opened that up and you can see that we have this file.
+
+22
+00:01:06,280 --> 00:01:09,060
+‫Okay, so now we want to build a virtual environment.
+
+23
+00:01:10,780 --> 00:01:16,840
+‫Like I mentioned, when we download Python, one of the tools that it comes with is the virtual environment.
+
+24
+00:01:16,840 --> 00:01:25,510
+‫So we can go ahead and type PI for Python and then we can use the RM flag VM V to start the actual virtual
+
+25
+00:01:25,510 --> 00:01:25,990
+‫environment.
+
+26
+00:01:25,990 --> 00:01:29,340
+‫And then we need to then pass in the name of the folder.
+
+27
+00:01:29,350 --> 00:01:32,080
+‫So this folder can be absolutely anything.
+
+28
+00:01:32,590 --> 00:01:34,840
+‫So let's just call this VM V.
+
+29
+00:01:35,560 --> 00:01:38,940
+‫So this command will then start a new virtual environment.
+
+30
+00:01:38,950 --> 00:01:43,750
+‫You can see that we've created a folder with lots of other information or folders and files inside of
+
+31
+00:01:43,750 --> 00:01:44,350
+‫that.
+
+32
+00:01:45,560 --> 00:01:48,320
+‫To start to paint a picture of what's going on here.
+
+33
+00:01:48,350 --> 00:01:50,690
+‫Imagine your computer is a box.
+
+34
+00:01:50,960 --> 00:01:54,980
+‫When we download Python, Python is installed in that box.
+
+35
+00:01:55,250 --> 00:01:59,390
+‫If we wanted to run python, we could run python from that box.
+
+36
+00:01:59,390 --> 00:02:00,920
+‫Our operating system.
+
+37
+00:02:01,250 --> 00:02:07,730
+‫Now, the problem is here, when we start working on multiple projects, each project may require a
+
+38
+00:02:07,730 --> 00:02:09,920
+‫different additional software.
+
+39
+00:02:10,100 --> 00:02:16,340
+‫So for example, one project might be utilizing Django, maybe Django four, and one project might be
+
+40
+00:02:16,340 --> 00:02:20,240
+‫utilizing Django 3.2 and an earlier version of Django.
+
+41
+00:02:20,270 --> 00:02:27,890
+‫Now, the problem is here in our main box, if we were to install Django four and Django 3.2, for example,
+
+42
+00:02:27,890 --> 00:02:31,210
+‫in the same box, potentially we would have conflicts.
+
+43
+00:02:31,220 --> 00:02:38,020
+‫So the whole idea here of a virtual environment is that we make smaller boxes inside of our big box.
+
+44
+00:02:38,030 --> 00:02:44,420
+‫So we create virtual environments within our computer, within that virtual environment we install or
+
+45
+00:02:44,420 --> 00:02:50,120
+‫we have Python available and we can install additional software inside of that smaller box.
+
+46
+00:02:50,510 --> 00:02:54,470
+‫That way we can encapsulate everything that the project requires.
+
+47
+00:02:54,470 --> 00:03:01,760
+‫That particular project requires inside of that smaller box without conflicting or damaging or changing
+
+48
+00:03:01,760 --> 00:03:04,940
+‫the main big box, our main operating system.
+
+49
+00:03:05,150 --> 00:03:12,260
+‫So we're working within a smaller box, within the bigger box here, and that allows us to create specific
+
+50
+00:03:12,260 --> 00:03:16,790
+‫environments for specific projects that we're working within.
+
+51
+00:03:16,910 --> 00:03:19,900
+‫So what we've done here is we've created our virtual environment.
+
+52
+00:03:19,910 --> 00:03:23,210
+‫Now what we need to do is we need to activate it.
+
+53
+00:03:23,210 --> 00:03:27,790
+‫So on Windows, we just need to type in V Now I'm going to press tab here.
+
+54
+00:03:27,800 --> 00:03:32,710
+‫Notice that it's going to end the it's not going to end it.
+
+55
+00:03:32,720 --> 00:03:34,370
+‫It's going to end the command.
+
+56
+00:03:34,370 --> 00:03:42,080
+‫So V And then I press tab and you can see here finishes off the line and that references the folder
+
+57
+00:03:42,080 --> 00:03:45,130
+‫here inside of here we have a folder called Scripts.
+
+58
+00:03:45,140 --> 00:03:48,860
+‫So inside of this folder we have scripts, so we're just navigating this folder system here.
+
+59
+00:03:48,890 --> 00:03:52,130
+‫I press tab and then I need to activate.
+
+60
+00:03:52,130 --> 00:03:59,210
+‫So inside of scripts we have activate and I press tab to finish off that line or that command and press
+
+61
+00:03:59,210 --> 00:04:01,430
+‫enter and you can see that we have a problem.
+
+62
+00:04:02,870 --> 00:04:08,400
+‫Not everyone will experience this problem, but we need to change some of the settings to allow us to
+
+63
+00:04:08,400 --> 00:04:10,590
+‫actually start a virtual environment.
+
+64
+00:04:12,130 --> 00:04:18,390
+‫If you received this issue here, we just need to configure the execution policies on your computer.
+
+65
+00:04:18,400 --> 00:04:20,970
+‫Now, there's a few different ways of doing this.
+
+66
+00:04:20,980 --> 00:04:25,510
+‫If you go over to Stack Overflow like I previously mentioned in the previous tutorial.
+
+67
+00:04:25,540 --> 00:04:28,900
+‫Good place to resolve any issues that we might have.
+
+68
+00:04:28,930 --> 00:04:33,640
+‫There are a few different methods of doing this, so let's just follow this one here.
+
+69
+00:04:33,730 --> 00:04:41,440
+‫So we need to set execution policy and restricted scope process as mentioned in the section in your
+
+70
+00:04:41,440 --> 00:04:42,970
+‫PowerShell window.
+
+71
+00:04:42,970 --> 00:04:45,250
+‫So we need to open up a PowerShell window.
+
+72
+00:04:45,280 --> 00:04:48,010
+‫So let's go to start, let's type in PowerShell.
+
+73
+00:04:48,190 --> 00:04:53,350
+‫Now we're going to need to open up a PowerShell window to again PowerShell window.
+
+74
+00:04:53,350 --> 00:04:55,870
+‫We are going to need to do that as administrator.
+
+75
+00:04:55,870 --> 00:04:59,800
+‫So I right click and then I select run as administrator.
+
+76
+00:04:59,800 --> 00:05:03,100
+‫So that's going to open up PowerShell as an administrator.
+
+77
+00:05:03,130 --> 00:05:09,610
+‫So now what we can do is we can run this command, so set dash execution policy and restrict escape
+
+78
+00:05:09,610 --> 00:05:10,540
+‫process.
+
+79
+00:05:10,540 --> 00:05:12,220
+‫So I'm going to copy that.
+
+80
+00:05:12,220 --> 00:05:15,970
+‫This link will be available in the in the resources of this tutorial.
+
+81
+00:05:16,660 --> 00:05:20,710
+‫So let's go ahead and paste that in, give that a go.
+
+82
+00:05:20,710 --> 00:05:28,510
+‫So I need to now press Y or A to yes to Oh so I type in Capital A and press enter and there we go.
+
+83
+00:05:28,510 --> 00:05:32,530
+‫So now what we need to do is we just need to close Visual Studio code.
+
+84
+00:05:32,560 --> 00:05:38,500
+‫This is a step that some forget or don't do, and we can then go ahead and just open up Visual Studio
+
+85
+00:05:38,500 --> 00:05:39,970
+‫code once again.
+
+86
+00:05:39,970 --> 00:05:42,070
+‫I think there's a shortcut on my desktop for that.
+
+87
+00:05:42,580 --> 00:05:45,100
+‫And now let's go through the process again.
+
+88
+00:05:45,100 --> 00:05:46,870
+‫So the virtual environment is still there.
+
+89
+00:05:47,410 --> 00:05:54,810
+‫Whenever we start a new, whenever we come back to our project, you can see that the folder that was
+
+90
+00:05:55,030 --> 00:05:59,140
+‫the path here correlates to the folder of our project.
+
+91
+00:05:59,140 --> 00:06:00,520
+‫So we're inside of this folder.
+
+92
+00:06:00,520 --> 00:06:03,940
+‫So if I type in, let's just clear this.
+
+93
+00:06:04,860 --> 00:06:07,300
+‫So I type in clear and enter to clear the screen.
+
+94
+00:06:07,320 --> 00:06:12,630
+‫If I type in LRS, we can see that that shows me the current folder that I'm working within because
+
+95
+00:06:12,630 --> 00:06:16,470
+‫I can see the files and folders that correlate to my project here.
+
+96
+00:06:16,680 --> 00:06:18,090
+‫So I press clear again.
+
+97
+00:06:18,090 --> 00:06:23,190
+‫Now I can just press up that brings, brings up the previous commands up and down.
+
+98
+00:06:23,220 --> 00:06:25,950
+‫So I give that a go that makes things a little bit easier.
+
+99
+00:06:25,950 --> 00:06:27,490
+‫So I clear the screen again.
+
+100
+00:06:27,510 --> 00:06:31,530
+‫So let's now start or try to activate our virtual environment again.
+
+101
+00:06:32,220 --> 00:06:38,550
+‫So here I'm going to type in V press tab, then Capital S tab A tab.
+
+102
+00:06:38,670 --> 00:06:39,540
+‫And there we go.
+
+103
+00:06:39,540 --> 00:06:42,150
+‫So you can see that that method did not work.
+
+104
+00:06:43,740 --> 00:06:46,920
+‫So that familiarize yourself with the process if you like.
+
+105
+00:06:46,920 --> 00:06:48,460
+‫So let's go back into the PowerShell.
+
+106
+00:06:48,480 --> 00:06:49,390
+‫Let's try again.
+
+107
+00:06:49,410 --> 00:06:50,210
+‫PowerShell.
+
+108
+00:06:50,220 --> 00:06:51,060
+‫Right click.
+
+109
+00:06:51,270 --> 00:06:53,250
+‫Run as administrator Press.
+
+110
+00:06:53,250 --> 00:06:53,850
+‫Yes.
+
+111
+00:06:53,970 --> 00:06:59,010
+‫And let's go ahead and press and type in set execution policy.
+
+112
+00:06:59,040 --> 00:07:01,920
+‫I'm restricted and then dash force.
+
+113
+00:07:02,070 --> 00:07:04,500
+‫So that's what we're going to run here.
+
+114
+00:07:06,480 --> 00:07:11,160
+‫Okay, so I've just changed the scale of my font here so you can actually see the command.
+
+115
+00:07:11,190 --> 00:07:12,720
+‫That should make it a lot easier for it.
+
+116
+00:07:12,750 --> 00:07:17,880
+‫So let's press enter there and let's now give this a go.
+
+117
+00:07:17,880 --> 00:07:20,910
+‫So I'm restricted force so there are no messages here.
+
+118
+00:07:20,910 --> 00:07:24,090
+‫So let's go back into Visual Studio Code.
+
+119
+00:07:24,090 --> 00:07:26,970
+‫Let's go ahead and close the PowerShell.
+
+120
+00:07:27,090 --> 00:07:31,800
+‫Let's open this up again, view terminal and then let's give this a go again.
+
+121
+00:07:31,800 --> 00:07:37,050
+‫So I just press up here twice to the command to activate virtual environment.
+
+122
+00:07:37,050 --> 00:07:37,740
+‫You can type it in.
+
+123
+00:07:37,770 --> 00:07:44,430
+‫Of course I press enter and you can see that this time we then have access now to run the virtual environment.
+
+124
+00:07:44,430 --> 00:07:51,240
+‫So you can see here at the start of this command line I have VM V and that indicates the fact that I'm
+
+125
+00:07:51,240 --> 00:07:54,120
+‫now working in the virtual environment.
+
+126
+00:07:55,280 --> 00:07:58,430
+‫So step one is to create a virtual environment.
+
+127
+00:07:58,460 --> 00:08:01,460
+‫Step two is always then to activate it.
+
+128
+00:08:01,460 --> 00:08:06,940
+‫So before you start working on your project, you need to make sure that you access or activate sorry,
+
+129
+00:08:07,010 --> 00:08:08,630
+‫the virtual environment.
+
+130
+00:08:10,160 --> 00:08:12,260
+‫So we can deactivate the environment.
+
+131
+00:08:12,260 --> 00:08:19,730
+‫So if I press up to bring up the previous command, press D and then press tab to finish stuff off the
+
+132
+00:08:19,730 --> 00:08:21,660
+‫command line there, press enter.
+
+133
+00:08:21,680 --> 00:08:25,540
+‫You can see that that does not deactivate the virtual environment.
+
+134
+00:08:25,550 --> 00:08:33,350
+‫So if I just close the window and then I open up again, you can see by doing that I then deactivated
+
+135
+00:08:33,350 --> 00:08:34,700
+‫the virtual environment.
+
+136
+00:08:34,700 --> 00:08:35,450
+‫So.
+
+137
+00:08:36,340 --> 00:08:40,600
+‫That's how to activate and then potentially deactivate the virtual environment.
+
+138
+00:08:40,630 --> 00:08:47,260
+‫There are other variations here, but that's just a quick and simple way of working, similar to overcoming
+
+139
+00:08:47,260 --> 00:08:48,770
+‫the problem that we have previously.
+
+140
+00:08:48,790 --> 00:08:55,090
+‫There are many different variations of performing and working in a way that kind of avoids that problem.
+
+141
+00:08:55,090 --> 00:08:58,720
+‫But I've just shown you one of many ways that is possible.
+
+142
+00:09:00,100 --> 00:09:05,890
+‫So again, I do recommend that you spend a little bit of time, maybe five, 10 minutes, just familiarizing
+
+143
+00:09:05,890 --> 00:09:11,050
+‫yourself with that process, starting, stopping, maybe make some notes regarding the commands that
+
+144
+00:09:11,050 --> 00:09:16,390
+‫you need because you are going to pretty much create a virtual environment or start a virtual environment
+
+145
+00:09:16,390 --> 00:09:21,400
+‫every time you work with a Python application, specifically Django applications.
+
